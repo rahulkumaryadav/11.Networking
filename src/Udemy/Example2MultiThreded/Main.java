@@ -1,4 +1,4 @@
-package javaTPoint.Example3Udemy;
+package Udemy.Example2MultiThreded;
 
 import java.io.BufferedReader;
 import java.io.IOException;
