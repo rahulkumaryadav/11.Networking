@@ -1,4 +1,4 @@
-package Udemy.Example2MultiThreded;
+package Udemy.TCPIPExample1;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -10,8 +10,8 @@ import java.util.Scanner;
 public class ClientDemo {
     public static void main(String[] args) {
         try (Socket socket=new Socket("localhost",5000)){
-            BufferedReader echo=new BufferedReader(new InputStreamReader(socket.getInputStream()));
-            PrintWriter stringToEcho= new PrintWriter(socket.getOutputStream(),true);
+            BufferedReader echo=new BufferedReader(new InputStreamReader(socket.getInputStream()));//data received from server
+            PrintWriter stringToEcho= new PrintWriter(socket.getOutputStream(),true);//Data send to server
 
             Scanner scanner=new Scanner(System.in);
             String echoString;

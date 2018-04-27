@@ -1,4 +1,4 @@
-package Udemy.Example1;
+package Udemy.TCPIPExample1;
 
 import java.io.BufferedReader;
 import java.io.IOException;
